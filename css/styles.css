@@ -63,7 +63,6 @@ img
   padding-right: 20px;
   margin-right: auto;
   margin-left: auto;
-  border: 4px solid red;
 }
 
 /* * BADGE * */
@@ -164,13 +163,24 @@ img
   margin-right: 8px;
 }
 .job-listings-position {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+.job-listings-link{
   font-size: 18px;
   line-height: 24px;
   text-align: left;
-  margin: 0;
-  padding: 0;
   color: var(--black);
-  margin-bottom: 8px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.job-listings-link:hover{
+  color: var(--green);
+}
+.job-listings-link:active
+{
+  opacity: 0.6;
 }
 .job-listings-addl {
   display: flex;
